@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer HTML</title>
+</head>
+<body>
+    <h1>Encabezado</h1>
+    <p><b>Aquí va el contenido</b> </p>
+    HTML no respeta los saltos de linea <br>ni aunque lo hagamos en el editor.<br>
+    HTML tampoco respeta los espacios &nbsp; &nbsp; en blanco <br>
+    Derechos reservados 2024 &copy;
+
+    <p align="center">
+        Texto pequeño o grande
+    </p>
+
+    <hr> 
+
+    Etiquetas descontinuadas desde el 2010 <br>
+    No usarlas (Solo emergencias): <br>
+    <b> Texto </b>
+    <strong> Texto </strong>
+    <u> Texto </u>
+    <s> Texto </s>
+    <marquee> Texto </marquee>
+    <small> Texto </small>
+
+    <hr>
+
+    Anclas (anchor)
+    <a href = "test.html" target="_blank">
+        Enlace a dar clic
+    </a>
+
+    <br>
+
+    <img src="https://img.freepik.com/foto-gratis/creatividad-multicolor-ojo-humano-cercano-generado-ia_188544-15574.jpg?w=1800&t=st=1707413113~exp=1707413713~hmac=20a4dc52bbe7bc99105b06727e975052af21acb36453d46ba6d86577a42d59f5"
+        alt="Comunicacion Visual img"
+        width="150"> <!--No usar width, eso va en CSS-->
+
+        <!-- command + shift + 7 -> Para comentar o descomentar -->
+
+    <div>
+        Aqui va una division de pantalla
+    </div>
+
+    <form action="test.html" method="get">
+        <input type="password" placeholder="Contraseña">
+        <select name="" id="">
+            <option value="">Opcion 1</option>
+            <option value="">Opcion 2</option>
+            <option value="">Opcion 3</option>
+        </select>
+        <input type="submit">
+    </form>
+
+    <!-- Tablas  -->
+    <!-- Las tablas no estan actualizadas para su uso en moviles -->
+    <!-- Se recomienda para reportes, solo si la app esta orientada a dispositivos moviles -->
+    <table border align="center">
+        <thead>
+            <tr>
+                <th> Campo 1</th>
+                <th> Campo 2</th>
+                <th colspan="2"> Campo 3</th>
+                <th> Campo 4</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Contenido 1</td>
+                <td>Contenido 2</td>
+                <td colspan="2">Contenido 3</td>
+                <td rowspan="2"> Contenido 4</td>
+            </tr>
+            <tr>
+                <td>Contenido 1</td>
+                <td>Contenido 2</td>
+                <td>Contenido 3</td>
+                <td>Contenido 4</td>
+            </tr>
+        </tbody>
+    </table>
+    <p></p>
+    <!-- Listas -->
+    <!-- Lista desordenada -->
+    <ul>
+        <li> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+    </ul>
+    <!-- Lista ordenada -->
+    <ol>
+        <li> Elemento 1</li>
+        <li> Elemento 2</li>
+        <li> Elemento 3</li>
+        <li>
+            <ul>
+                <li> Elemento 1</li>
+                <li> Elemento 2</li>
+                <li> Elemento 3</li>
+            </ul>
+        </li>
+    </ol>
+</body>
+</html>
