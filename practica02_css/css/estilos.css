@@ -5,6 +5,19 @@ body{
     min-width: 1078px;   
 }
 
+footer{
+    background: blue;
+    color: white;
+    font-size: 0.8em;
+}
+
+footer article{
+    border: 1px solid red;
+    display: inline-block;
+    margin-right: 30px;
+    width: 35%;
+}
+
 header input{
     float: right;
     margin-right: -200px;
@@ -69,6 +82,26 @@ header nav ul li{
     content: "• ";
 }
 
+#secc03art04{
+    padding-top: 60px;
+}
+
+#segundaseccion article{
+    padding-right: 140px;
+    text-align: right;
+}
+
+#terceraseccion article{    
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+
+#terceraseccion article img{
+    /* Alineacion vertical del texto que la rodea */
+    vertical-align: middle;
+}
+
 .colorazul{
     color: #4267B3;
 }
@@ -85,7 +118,7 @@ header nav ul li{
     font-size: 3.5em;
 }
 
-.letramedina{
+.letramediana{
     font-size: 2em;
 }
 
