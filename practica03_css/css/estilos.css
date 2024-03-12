@@ -1,34 +1,103 @@
-body{
-    font-size: 16px;
-    margin: 0px auto;
-    max-width: 1024px;
-}
+    body{
+        font-size: 16px;
+        margin: 0px auto;
+        max-width: 1024px;
+    }
 
-header ul li{
-    display: inline-block;
-    width: 17.0%;
-}
+    header ul li{
+        /* color: white; */
+        display: inline-block;
+        margin-right: -10px;
+        padding: 8px 14px;
+        text-align: center;
+        width: 17.0%;
+    }
 
-header ul li:nth-child(2){
-    background: var(--color-verde);
-}
+    header ul li:nth-child(2){
+        background: var(--color-verde);
+    }
 
-header ul li:nth-child(3){
-    background: var(--color-negro);
-}
+    header ul li:nth-child(3){
+        background: var(--color-negro);
+    }
 
-header ul li:nth-child(4){
-    background: var(--color-rojo);
-}
+    header ul li:nth-child(4){
+        background: var(--color-rojo);
+    }
 
-header ul li:nth-child(5){
-    background: var(--color-gris);
-}
+    header ul li:nth-child(5){
+        background: var(--color-gris);
+        /* color: gray; */
+    }
 
-html{
-    /* Propiedades personalizables */
-    --color-gris: lightgray;
-    --color-negro: #353535;
-    --color-rojo: #D33040;
-    --color-verde: #849C3C; /*Custom property*/
-}
+    html{
+        /* Propiedades personalizables */
+        --color-azul: lightblue;
+        --color-blanco: white;
+        --color-gris: lightgray;
+        --color-linea: #949494;
+        --color-negro: #353535;
+        --color-rojo: #D33040;
+        --color-verde: #849C3C; /*Custom property*/
+        --fondo-negro: #2C2C2C;
+    }
+
+    section, footer{
+        background: var(--fondo-negro);
+    }
+
+    section article{
+        display: inline-block;
+        height: 280px;
+        padding: 18px 8px;
+        vertical-align: top;
+        width: 17.9%;
+    }
+
+    section article ul{
+        list-style: none;
+    }
+
+    section article:nth-child(2){
+        background: var(--color-verde);
+    }
+
+    section article:nth-child(3){
+        background: var(--color-negro);
+    }
+
+    section article:nth-child(4){
+        background: var(--color-rojo);
+    }
+
+    section article:nth-child(5){
+        background: var(--color-gris);
+    }
+
+    section img{
+        width: 150px;
+    }
+
+    .letra-azul{
+        color: var(--color-azul);
+    }
+
+    .letra-blanca{
+        color: var(--color-blanco);
+    }
+
+    .letra-gris{
+        color: var(--color-linea);
+    }
+
+    .letra-negra{
+        color: var(--color-negro);
+    }
+
+    .tam-menu-lateral{
+        font-size: 1.1em;
+    }
+
+    .tam-tarjetas{
+        font-size: 1.7em;
+    }
