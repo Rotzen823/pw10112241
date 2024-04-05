@@ -4,23 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Práctica 05</title>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
     <header>
-        <img src="img/logo.png" alt="logo">
+        <img src="img/logo.png" alt="logo" id="logo">
         <nav>
             <ul>
-                <li><img src="img/notificaciones.png" alt="notificaciones"></li>
-                <li><img src="img/mensajes.png" alt="mensajes"></li>
-                <li><img src="img/ajustes.png" alt="ajustes"></li>
+                <li><img src="img/notificaciones.png" alt="notificaciones" id="notificaciones"></li>
+                <li><img src="img/mensajes.png" alt="mensajes" id="mensajes"></li>
+                <li><img src="img/ajustes.png" alt="ajustes" id="ajustes"></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <article>
-                <img src="img/logolinks.png" alt="logolinks"> <span class="letra-titulo">Panel with Links</span>
-                <ul>
+        <section id="section-right">
+            <article id="panel-links">
+                <div>
+                    <img src="img/logolinks.png" alt="logolinks"> <span class="letra-blanca nito">Panel with Links</span>
+                </div>
+                <ul class="letra-blanca">
                     <li>Example</li>
                     <li>Example</li>
                     <li>Example</li>
@@ -33,84 +36,107 @@
                     <li>Example</li>
                 </ul>
             </article>
-            <article>
-                <img src="img/logoprogress.png" alt="logoprogress"> <span class="letra-titulo">Panel with Progress</span>
-                <br>
-                <span class="letra-titulo">Progress Bar</span>
-                <br>
-                <img src="img/barra01.png" alt="barra01">
-                <br>
-                <span class="letra-titulo">Progress Bar</span>
-                <br>
-                <img src="img/barra02.png" alt="barra02">
-                <br>
-                <span class="letra-titulo">Progress Bar</span>
-                <br>
-                <img src="img/barra03.png" alt="barra03">
-                <br>
-                <span class="letra-titulo">Progress Bar</span>
-                <br>
-                <img src="img/barra04.png" alt="barra04">
-                <br>
-
-            </article>
-            
-        </section>
-        <section>
-            <article>
-                <span class="letra-titulo">Simple Cubes</span>
+            <article id="panel-progress">
+                <div>
+                    <img src="img/logoprogress.png" alt="logoprogress"> <span class="letra-blanca nito">Panel with Progress</span>
+                </div>
                 <br>
                 <article>
+                    Progress Bar
+                    <img src="img/barra01.png" alt="barra01">
+                    Progress Bar
+                    <img src="img/barra02.png" alt="barra02">
+                    Progress Bar
+                    <img src="img/barra03.png" alt="barra03">
+                    Progress Bar
+                    <img src="img/barra04.png" alt="barra04">
+                </article>
+            </article>
+        </section>
+        <section id="section-left">
+            <article id="article-cubes">
+                <span class="nito">Simple Cubes</span>
+                <br>
+                <article class="fondo-verde letra-blanca">
                     <img src="img/cubo1.png" alt="cubo1">
                     <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a obcaecati tempora quisquam doloremque quae, excepturi eligendi, numquam iste nesciunt magnam fugit itaque nemo. Dolor libero explicabo nemo quam quas!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </article>
-                <article>
+                <article class="fondo-azul letra-blanca">
                     <img src="img/cubo02.png" alt="cubo02">
                     <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a obcaecati tempora quisquam doloremque quae, excepturi eligendi, numquam iste nesciunt magnam fugit itaque nemo. Dolor libero explicabo nemo quam quas!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </article>
-                <article>
+                <article class="fondo-morado letra-blanca">
                     <img src="img/cubo03.png" alt="cubo03">
                     <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a obcaecati tempora quisquam doloremque quae, excepturi eligendi, numquam iste nesciunt magnam fugit itaque nemo. Dolor libero explicabo nemo quam quas!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </article>
-                <article>
+                <article class="fondo-rojo letra-blanca">
                     <img src="img/cubo04.png" alt="cubo04">
                     <br>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex a obcaecati tempora quisquam doloremque quae, excepturi eligendi, numquam iste nesciunt magnam fugit itaque nemo. Dolor libero explicabo nemo quam quas!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </article>
             </article>
-            <article>
-                <span class="letra-titulo">Panels</span>
+            <article id="article-panels">
+                <span class="nito">Panels</span>
                 <br>
-                <article>
-                    84%
+                <article id="porcentaje-1">
+                    <div class="porcentaje "> 84% </div>
                     <br>
                     <img src="img/grafico.png" alt="grafico">
                     <br>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt veritatis voluptas praesentium officia eos delectus error optio laboriosam. Ab unde aspernatur corrupti! Reiciendis atque eos libero distinctio, doloremque perferendis dignissimos!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maecenas egestas justo vel porta placerat.
 
                 </article>
-                <article>
-                    36%
+                <article id="porcentaje-2">
+                    <div class="porcentaje"> 36% </div>
                     <br>
                     <img src="img/grafico.png" alt="grafico">
                     <br>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt veritatis voluptas praesentium officia eos delectus error optio laboriosam. Ab unde aspernatur corrupti! Reiciendis atque eos libero distinctio, doloremque perferendis dignissimos!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maecenas egestas justo vel porta placerat.
                     
                 </article>
-                <article>
-                    22%
+                <article id="porcentaje-3">
+                    <div class="porcentaje"> 22% </div>
                     <br>
                     <img src="img/grafico.png" alt="grafico">
                     <br>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt veritatis voluptas praesentium officia eos delectus error optio laboriosam. Ab unde aspernatur corrupti! Reiciendis atque eos libero distinctio, doloremque perferendis dignissimos!
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maecenas egestas justo vel porta placerat.
                     
                 </article>
             </article>
-            <article>
-                <span class="letra-titulo">Usuarios</span>
+            <article id="article-usuarios">
+                <span class="nito">Usuarios</span>
+                <br>
+                <article>
+                    <img src="img/usuario01.png" alt="usuario01">
+                    <br>
+                    <span class="letra-blanca letra-usuario">User Example</span>
+                    <br>
+                    <input type="button" value="Send Message">
+                </article>
+                <article>
+                    <img src="img/usuario02.png" alt="usuario02">
+                    <br>
+                    <span class="letra-blanca letra-usuario">User Example</span>
+                    <br>
+                    <input type="button" value="Send Message">
+                </article>
+                <article>
+                    <img src="img/usuario03.png" alt="usuario03">
+                    <br>
+                    <span class="letra-blanca letra-usuario">User Example</span>
+                    <br>
+                    <input type="button" value="Send Message">
+                </article>
+                <article>
+                    <img src="img/usuario04.png" alt="usuario04">
+                    <br>
+                    <span class="letra-blanca letra-usuario">User Example</span>
+                    <br>
+                    <input type="button" value="Send Message">
+                </article>
             </article>
         </section>
     </main>
