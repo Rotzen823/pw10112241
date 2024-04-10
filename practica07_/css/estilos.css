@@ -1,0 +1,38 @@
+body{
+    font-size: 16px;
+    margin: 0px auto;
+    width: 1024px;
+}
+
+header{
+    background: #1f2938;
+}
+
+header article{
+    display: inline-block;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.letra-blanca{
+    color: white;
+}
+
+.letra-gris{
+    color: lightgray;
+}
+
+.tam-small{
+    font-size: 0.8em;
+}
