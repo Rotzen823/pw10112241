@@ -1,0 +1,98 @@
+body{
+    /* background: #fdfdfd; */
+    font-size: 16px;
+    margin: 0px auto;
+    width: 1024px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+footer article{
+    border: 15px #fdfdfd solid;
+    border-radius: 10px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-right: -4px;
+    vertical-align: top;
+    width: 16%;
+}
+
+header{
+    margin-top: 10px;
+}
+
+header article{
+    display: inline-block;
+    margin-right: 113px;
+    vertical-align: top;
+}
+
+input{
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+
+section{
+    margin-top: 40px;
+}
+
+section article{
+    display: inline-block;
+    margin-right: 80px;
+    vertical-align: top;
+}
+
+#artcile-img{
+    width: 30%;
+}
+
+#article-main{
+    margin-top: 50px;
+    width: 50%;
+}
+
+#article-main img{
+    width: 100%;
+}
+
+#input-change{
+    border: 1px red solid;
+    background: white;
+    color: red;
+}
+
+#input-contact{
+    border: 1px red solid;
+    background: red;
+    color: white;
+}
+
+.nito{
+    font-weight: bold;
+}
+
+.tam-med{
+    font-size: 1.5em;
+}
+
+.tam-subtitulo{
+    font-size: 2.5em;
+}
+
+.tam-titulo{
+    font-size: 3em;
+}
