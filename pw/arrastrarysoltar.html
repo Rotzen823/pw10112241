@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrastrar y soltar</title>
+    <style>
+        #div1, #div2{
+            float: left;
+            border: 1px solid black;
+            height: 380px;
+            margin: 10px;
+            padding: 10px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Arrastrar y soltar</h2>
+    <div id="div1" ondragover="allowDrop(event)" ondrop="drop(event)">
+        <img src="img/logo.webp"  id="arrastre1" height="31" width="88" draggable="true" ondragstart="drag(event)">
+        <img src="img/logo.webp"  id="arrastre2" height="31" width="88" draggable="true" ondragstart="drag(event)">
+        <img src="img/logo.webp"  id="arrastre3" height="31" width="88" draggable="true" ondragstart="drag(event)">
+        <img src="img/logo.webp"  id="arrastre4" height="31" width="88" draggable="true" ondragstart="drag(event)">
+    </div>
+    <div id="div2" ondragover="allowDrop(event)" ondrop="drop(event)">
+
+    </div>
+</body>
+</html>
