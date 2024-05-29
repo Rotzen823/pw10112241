@@ -27,7 +27,7 @@
                 </button>
                 <p></p>
                 <button @click.prevent="registroGoogle()" data-mdb-button-init data-mdb-ripple-init class="btn btn-outline-dark btn-lg btn-block" type="submit">
-                    Google
+                    <Icon icon="logos:google-icon"/>  Google
                 </button>
 
             </div>
@@ -39,9 +39,11 @@
 </template>
 <script>
 
-    import {getAuth, signInWithEmailAndPassword} from 'firebase/auth'
+    import {getAuth, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup} from 'firebase/auth'
+    import { Icon } from '@iconify/vue'
     export default{
         name: "RegistroView",
+        components: {Icon},
         data(){
             return{
                 correo:'',
@@ -56,6 +58,7 @@
                     this.mensaje = ''
                     this.correo = ''
                     this.password = ''
+                    this.$router.push('/clientes/')
                 })
                 .catch((error) => {
                     switch (error.code) {
@@ -74,6 +77,13 @@
                     }
                 })
             },
+            registroGoogle(){
+                const provider = new GoogleAuthProvider();
+                signInWithPopup(getAuth(), provider)
+                .then((result) => {
+                    this.$router.push('/clientes/')
+                })
+            }
         }
     }
 </script>
